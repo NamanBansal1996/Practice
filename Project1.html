@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link href="project1.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Naman's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home </a></li>
+            <li><a href="/">Project</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hey, This is <span class="Purple">naman </span>
+          and i am passionate
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+
+        <div class="rightsection">
+          <img src="logo.png" alt="developer image" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-gray">What i have done so far</span>
+        <h1>Past Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="dev.png" alt="1st experience" />
+            <div class="vertical-title">HTML developer (2016-2018)</div>
+            <div class="vertical-desc">
+              Developed Website for the farmers to get the best price of grains
+              in near by mandi to avoid transportation cost.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="upsc.png" alt="2nd experience" />
+            <div class="vertical-title">UPSC Aspirant (2018-2020)</div>
+            <div class="vertical-desc">
+              Learned about problem-solving skills, <br />
+              pressure management, developed empathy.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="strategy.png" alt="3rd experience" />
+            <div class="vertical-title">Planning Advisor (2020-2022)</div>
+            <div class="vertical-desc">
+              Devised a strategic blueprint to enhance the society, leading to
+              the successful sale of 100 plots of land in just six months. .
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="freelancer.png" alt="current senario" />
+            <div class="vertical-title">Free Lancer <br />(2022-2023)</div>
+            <div class="vertical-desc">
+              Learning new skills such as react js to <br />
+              make dynamic projects.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <img class="logo" src="face.png" />
+        </div>
+        <div class="footer-second">
+          <img class="logo" src="insta.png" />
+        </div>
+        <div class="footer-third">
+          <img class="logo" src="twitter.png" />
+        </div>
+        <div class="footer-fourth">
+          <img class="logo" src="link.png" />
+        </div>
+        <div class="footer-fifth">
+          <img class="logo" src="github.png" />
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Video Editior", "Web Designer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>

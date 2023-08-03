@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #c71538;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(30 30 95);
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: beige;
+  }
+  nav ul li a:hover {
+    color: rgb(243, 243, 53);
+    font-size: 1.5rem;
+  }
+  main hr {
+    border: 0;
+    background: black;
+    height: 1.2px;
+    margin: 48px 84px;
+  }
+  .left {
+    font-size: 1.5rem;
+  }
+  .firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5vh 0px;
+  }
+  .firstsection div {
+    width: 40%;
+  }
+  .leftsection {
+    font-size: 2rem;
+  }
+  .buttons {
+    display: flex;
+  }
+  .leftsection .btn {
+    margin: 10px 10px;
+    padding: 12px;
+    background-color: #c71538;
+    border: solid white;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .rightsection img {
+    margin: 10px;
+    width: 85%;
+  }
+  .purple {
+    color: rgb(176, 126, 223);
+  }
+  #element {
+    color: rgb(176, 126, 223);
+  }
+  .text-grey {
+    color: grey;
+  }
+  .secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+  }
+  .secondsection h1 {
+    font-size: 1.9rem;
+  }
+
+  .box {
+    background: white;
+    width: 80vw;
+    margin: 56px 0;
+    height: 2px;
+    display: flex;
+  }
+  .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: aliceblue;
+    margin: 0 140px;
+  }
+
+  .image-top {
+    position: relative;
+    top: -32px;
+    left: -9px;
+    width: 23px;
+  }
+  .vertical-title {
+    position: relative;
+    top: 50px;
+    width: 150px;
+  }
+  .vertical-desc {
+    position: relative;
+    top: 50px;
+    color: black;
+    font-size: 15px;
+    width: 150px;
+  }
+ 
+  .footer {
+    display: flex;
+    justify-content: center;
+    margin: 10px 34px;
+    background-color: black;
+  }
+  
+  .logo {
+    position: relative;
+    
+    margin: 10px 10px ;
+    padding: 10px 10px;
+    top: 5px;
+    left: -9px;
+    width: 50px;
+  }
